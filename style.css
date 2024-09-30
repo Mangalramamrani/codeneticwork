@@ -1,0 +1,371 @@
+/* @font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins/OFL.txt);
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif !important;
+}
+
+body {
+    scroll-behavior: smooth !important;
+    /* overflow-x: hidden !important; */
+}
+
+
+.btn-blue {
+    background-color: #4C40F7 !important;
+    padding: 10px 20px !important;
+}
+
+.hero-main-heading {
+    font-weight: 600 !important;
+    font-size: 60px !important;
+}
+
+.hero-main-heading span {
+    color: #FF6800;
+}
+
+.icons {
+    padding: 20px !important;
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.see_more {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(214, 214, 214, 0.61);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-main {
+    transition: 0.3s;
+}
+
+.card-main:hover {
+    background-color: #4C40F7 !important;
+
+}
+
+.card-main:hover .card-title {
+    color: white !important;
+
+}
+
+.card-main:hover .card-des {
+    color: white !important;
+
+}
+
+.card-main:hover .see_more {
+    background-color: white !important;
+}
+
+.icons1 {
+    background-color: #FE9602;
+
+}
+
+.icons2 {
+    background-color: #FF2D59;
+
+}
+
+.icons3 {
+    background-color: #4ADB61;
+
+}
+
+.icons4 {
+    background-color: #FFCC00;
+
+}
+
+.icons5 {
+    background-color: #007BFF;
+
+}
+
+.icons6 {
+    background-color: #FF6800;
+
+}
+
+.social-media-icon {
+    transition: 0.3s;
+}
+
+.footer-link {
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    color: #FF6800 !important;
+}
+
+.documentation-section {
+    background-image: url(./assets/images/bg-danger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tick-mark {
+    font-size: 25px !important;
+    color: #4C40F7 !important;
+    margin-right: 10px !important;
+}
+
+.bg-gray {
+    background-color: #f9f9f9;
+}
+
+.image-container {
+    width: 70% !important;
+
+}
+
+.slider-container {
+    background-color: #FE9602 !important;
+}
+
+.quote {
+    font-size: 50px;
+}
+
+.carousel-content {
+    font-size: 25px;
+    width: 65% !important;
+    margin: auto;
+}
+
+.slider-icons {
+    background-color: rgba(255, 255, 255, 0.507) !important;
+    padding: 20px !important;
+    border-radius: 50%;
+    margin: 10px;
+    color: red !important;
+}
+
+.slider-icons:hover {
+    background-color: #4C40F7 !important;
+    /* color: white; */
+}
+
+.accordian-btn {
+    border: 1px solid rgba(48, 48, 48, 0.623) !important;
+}
+
+.profile {
+    top: -15%;
+    left: 30%;
+    transform: translateX(-0, -0%);
+}
+
+
+.rating {
+    padding: 40px 0;
+}
+
+.profile-name {
+    margin-top: 40px !important;
+}
+
+.rating i {
+    font-size: 20px;
+    color: #4C40F7 !important;
+}
+
+.col-contain {
+    row-gap: 100px !important;
+}
+
+.bottom-card {
+    transition: 0.4s;
+}
+
+.bottom-card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px !important;
+}
+
+.footer-yellow {
+    padding: 200px 0 !important;
+}
+
+.footer {
+    background-color: #00113B;
+    padding-top: 300px;
+
+}
+
+.line {
+    width: 100% !important;
+    height: 1px !important;
+    background-color: white !important;
+    margin: 60px 0;
+}
+
+.footer-icon {
+    width: 40px !important;
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 50% !important;
+    background-color: #4C40F7 !important;
+    color: white;
+}
+
+.footer-icon:hover {
+    background-color: #FF6800 !important;
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: rgba(255, 211, 0, 0.2) 10px 10px 10px,
+        rgba(255, 211, 0, 0.2) 0px 10px 10px,
+        rgba(255, 211, 0, 0.2) 0px 10px 10px,
+        rgba(255, 211, 0, 0.2) 0px 10px 10px,
+        rgba(255, 211, 0, 0.2) 0px 10px 10px;
+
+}
+.contact{
+    font-size: 20px;
+    margin-right: 10px !important;
+    color: #FF6800 !important;
+}
+
+.footer-floating {
+    top: -400px;
+    background-color: #4C40F7 !important;
+}
+
+.get-started {
+    font-size: 20px;
+}
+
+.navbar-res {
+    width: 100%;
+    height: 100vh;
+    background-color: #00113B;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.nav-responsive {
+    left: 0;
+}
+
+.input-subscribe {
+    padding: 0 10px !important;
+
+}
+
+.menu-btn {
+    font-size: 25px;
+}
+
+@media only screen and(max-width: 650px) {
+    .footer-links {
+        background-color: red;
+
+    }
+
+    .footer-floating {
+        left: 0px !important;
+    }
+}
+@media only screen and (max-width: 767px){
+    .profile{
+        left: 38% !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .btn-blue {
+        display: none !important;
+    }
+
+    .yellow-div {
+        width: 100% !important;
+    }
+
+    .hero-main-heading {
+        font-size: 30px;
+    }
+
+    .footer-floating {
+        width: 100% !important;
+        left: 0px !important;
+    }
+}
+
+
+@media only screen and (min-width: 576px) {
+    .menu-btn {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .input-subscribe {
+        width: 100%;
+        padding: 0px;
+    }
+    .footer-link{
+        font-size: 15px !important;
+    }
+    .profile{
+        left: 33% !important;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .navbar-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .footer-link{
+        font-size: 10px !important;
+    }
+    .hero-main-heading{
+        font-size: 40px !important;
+    }
+    .profile{
+        left: 25% !important;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .navbar {
+        display: block;
+    }
+}
